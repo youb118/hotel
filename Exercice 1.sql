@@ -6,7 +6,7 @@ USE Exercice1;
 
 CREATE TABLE Client (
   cli_num int NOT NULL AUTO_INCREMENT,
-  cli_nom varchar(50) NOT NULL INDEX,
+  cli_nom varchar(50) NOT NULL,
   cli_adresse varchar(50) NOT NULL,
   cli_tel varchar(30) NOT NULL,
   PRIMARY KEY (cli_num)
